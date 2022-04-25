@@ -1,0 +1,168 @@
+@media screen and (max-width: 1013px) {
+    #for_adding .flex_for_social {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #for_adding .custom_container {
+        padding: 0;
+    }
+    #for_adding .photo_name_block {
+        flex-direction: column;
+        align-items: center;
+    }
+    #for_adding .form-group {
+        text-align: left;
+    }
+    #for_adding .form-group input {
+        width: 100%;
+    }
+    #for_adding .image_block {
+        margin-bottom: 15px;
+    }
+    #for_adding .desired_salary {
+        width: 100%;
+    }
+    #for_adding .group_mrg {
+        margin-right: 0;
+    }
+    #for_adding .custom_form_g {
+        width: 100%;
+    }
+    #for_adding .phone_email_block .form-group input {
+        width: 100%;
+    }
+    #for_adding .phone_email_block .form-group input:first-child {
+        margin-right: 0;
+    }
+    #for_adding input[name="country"] {
+        width: 100%;
+    }
+    #for_adding .addres_block .form-group {
+        width: 100%;
+    }
+    #for_adding .date_form input, .date_form select {
+        width: 100%;
+    }
+    #for_adding .in_work, #for_adding .out_work {
+        width: 100%;
+    }
+    #for_adding .date_work {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #for_adding .expirience-1-now-block {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #for_adding .position_input {
+        width: 100%;
+    }
+    #for_adding .position_block div.checkbox {
+        margin-bottom: 15px;
+    }
+    #for_adding .d-courses {
+        width: 100%!important;
+    }
+    #for_adding .checkbox_content {
+        flex-direction: column;
+    }
+    .custom_container .nav-tabs {
+        display: flex;
+        justify-content: center;
+    }
+    #for_adding .nav-tabs .nav-link {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 35px;
+        padding-bottom: 15px;
+    }
+    #for_adding .nav-tabs li a.link_1::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #for_adding .nav-tabs li a.link_2::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #for_adding .nav-tabs li a.link_3::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #for_adding .nav-tabs {
+        border: none;
+    }
+    #for_adding .nav-tabs .nav-link {
+        border: none;
+    }
+    #for_adding .nav-tabs .nav-link.active {
+        border: none;
+    }
+    #for_adding {
+        padding: 0;
+    }
+    #for_adding .container {
+        padding: 0;
+    }
+    #for_adding #pills-tab {
+        display: none;
+    }
+    #tab_for_mob {
+        display: block;
+        margin-bottom: 25px;
+    }
+    #for_adding .for_dompdf {
+        transform: scale(0.32);
+        transform-origin: left top;
+        width: 140%;
+        height: 350px;
+    }
+    #for_adding .r {
+        height: 115px;
+    }
+    #for_adding #pills-profile {
+        height: 290px;
+    }
+    #for_adding #pills-contact {
+        height: 310px;
+    }
+    #for_adding .progressive_resume_inf {
+        height: 125px;
+    }
+    #for_adding #for_adding .basic_button_box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #for_adding .nav {
+        flex-wrap: nowrap;
+    }
+    #for_adding .nav-tabs .nav-link {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #for_adding .basic_button_box {
+        flex-direction: column;
+        width: 100%;
+    }
+    #for_adding .action_buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    #for_adding .basic_button_box a, #for_adding .action_buttons a, #for_adding .action_buttons button {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #for_adding .action_buttons {
+        width: 100%;
+    }
+    #for_adding .basic_button_box button {
+        width: 100%;
+    }
+    #for_adding .for_dompdf {
+        width: 240%;
+    }
+}
